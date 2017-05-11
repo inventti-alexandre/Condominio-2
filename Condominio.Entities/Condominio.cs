@@ -8,5 +8,7 @@ namespace Condominio.Entities
 {
     public class Condominio
     {
+
+
     }
 }
