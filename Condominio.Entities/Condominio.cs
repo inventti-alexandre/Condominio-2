@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    public class Class1
+    public class Condominio
     {
     }
 }
