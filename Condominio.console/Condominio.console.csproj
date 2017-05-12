@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Condominio.Entities\Condominio.Entities.csproj">
+      <Project>{51377b33-edc8-4d02-9160-653371b8d0fa}</Project>
+      <Name>Condominio.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Condominio.Persistence\Condominio.Persistence.csproj">
+      <Project>{f06cc6aa-f8be-42c9-8f6f-10e8fc176a91}</Project>
+      <Name>Condominio.Persistence</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
