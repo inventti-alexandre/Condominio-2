@@ -10,6 +10,7 @@ namespace Condominio.console
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
