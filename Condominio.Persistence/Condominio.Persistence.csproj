@@ -53,6 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CondominioDbContext.cs" />
+    <Compile Include="Migrations\201705131411084_InitialModel.cs" />
+    <Compile Include="Migrations\201705131411084_InitialModel.Designer.cs">
+      <DependentUpon>201705131411084_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +69,11 @@
       <Project>{51377b33-edc8-4d02-9160-653371b8d0fa}</Project>
       <Name>Condominio.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705131411084_InitialModel.resx">
+      <DependentUpon>201705131411084_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
