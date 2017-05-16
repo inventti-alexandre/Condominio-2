@@ -8,5 +8,6 @@ namespace Condominio.Persistence.EntitiesConfiguration
 {
     class VisitanteConfiguration
     {
+
     }
 }

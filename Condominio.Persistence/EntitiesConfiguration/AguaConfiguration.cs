@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.EntitiesConfiguration
 {
-    class AguaConfiguration
-    {
-    }
+    //public class AguaConfiguration : EntitytypeConfiguration
+    //{
+
+    //}
 }
