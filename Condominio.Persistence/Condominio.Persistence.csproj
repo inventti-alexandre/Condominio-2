@@ -53,6 +53,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CondominioDbContext.cs" />
+    <Compile Include="EntitiesConfiguration\AguaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\AreaComunConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CompraConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CondominioConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\DepartamentoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\EmpleadoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\EstacionamientoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\EstadoPagoServBasicoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\FormaDePagoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\GasConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\IngresoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\InsumosConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\LuzConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\MantenimientoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\PagoCompartidoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ProveedorConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ReservaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ResidenteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\SalidaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ServicioCompartidoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\StatusDepaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ValoracionEmplConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ValoracionResConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\VehiculoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\VigilanciaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\VisitanteConfiguration.cs" />
     <Compile Include="Migrations\201705131411084_InitialModel.cs" />
     <Compile Include="Migrations\201705131411084_InitialModel.Designer.cs">
       <DependentUpon>201705131411084_InitialModel.cs</DependentUpon>
