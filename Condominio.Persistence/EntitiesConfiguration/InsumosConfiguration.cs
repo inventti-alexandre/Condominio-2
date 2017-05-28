@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.EntitiesConfiguration
 {
-    class InsumosConfiguration
+    class InsumoConfiguration
     {
     }
 }

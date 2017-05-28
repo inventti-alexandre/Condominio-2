@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class ValoracionRes
+    public class Insumo
     {
+        public int InsumoId { get; set; }
+        public string Elemento { get; set; }
     }
 }

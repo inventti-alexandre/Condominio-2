@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Agua
+    public class Agua
     {
+        public int AguaId { get; set; }
+        public int Num_suministro { get; set;}
+        public double Importe { get; set; }
     }
 }

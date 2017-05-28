@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class FormaDePago
+    public class FormaDePago
     {
+        public int FormaDePagoId { get; set; }
+        public string EfectivoTarjeta { get; set; }
     }
 }

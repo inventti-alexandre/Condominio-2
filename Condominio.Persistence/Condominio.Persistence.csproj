@@ -67,12 +67,10 @@
     <Compile Include="EntitiesConfiguration\InsumosConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\LuzConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\MantenimientoConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\PagoCompartidoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ProveedorConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ReservaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ResidenteConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\SalidaConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\ServicioCompartidoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\StatusDepaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ValoracionEmplConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ValoracionResConfiguration.cs" />

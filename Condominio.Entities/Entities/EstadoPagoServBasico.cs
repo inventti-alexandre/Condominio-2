@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class EstadoPagoServBasico
+    public class EstadoPagoServBasico
     {
+        public int EstadoPagoServBasicoId { get; set; }
+        public string StatusPago { get; set; }
     }
 }

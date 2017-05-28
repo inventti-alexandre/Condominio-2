@@ -10,6 +10,7 @@ namespace Condominio.Persistence
 {
     public class CondominioDbContext : DbContext
     {
+
         public DbSet<Residente> Residentes { get; set; }
         
     }

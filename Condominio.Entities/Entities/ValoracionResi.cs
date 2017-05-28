@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Condominio.Persistence.EntitiesConfiguration
+namespace Condominio.Entities
 {
-    class PagoCompartidoConfiguration
+    class ValoracionResi
     {
     }
 }

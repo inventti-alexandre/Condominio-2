@@ -51,7 +51,7 @@
     <Compile Include="Entities\FormaDePago.cs" />
     <Compile Include="Entities\Gas.cs" />
     <Compile Include="Entities\Ingreso.cs" />
-    <Compile Include="Entities\Insumos.cs" />
+    <Compile Include="Entities\Insumo.cs" />
     <Compile Include="Entities\Luz.cs" />
     <Compile Include="Entities\Mantenimiento.cs" />
     <Compile Include="Entities\PagoCompartido.cs" />
@@ -63,7 +63,7 @@
     <Compile Include="Entities\ServicioCompartido.cs" />
     <Compile Include="Entities\StatusDepa.cs" />
     <Compile Include="Entities\ValoracionEmpl.cs" />
-    <Compile Include="Entities\ValoracionRes.cs" />
+    <Compile Include="Entities\ValoracionResi.cs" />
     <Compile Include="Entities\Vehiculo.cs" />
     <Compile Include="Entities\Vigilancia.cs" />
     <Compile Include="Entities\Visitante.cs" />

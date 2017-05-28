@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Gas
+    public class Gas
     {
+        public int GasId { get; set; }
+        public int NumSuministro { get; set; }
+        public double Importe { get; set; }
     }
 }

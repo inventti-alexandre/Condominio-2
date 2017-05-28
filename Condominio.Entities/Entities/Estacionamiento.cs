@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Estacionamiento
+    public class Estacionamiento
     {
+        public int EstacionamientoId { get; set; }
+        public string Pabellon { get; set; }
     }
 }
