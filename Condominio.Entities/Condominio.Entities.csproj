@@ -43,7 +43,7 @@
     <Compile Include="Entities\Agua.cs" />
     <Compile Include="Entities\AreaComun.cs" />
     <Compile Include="Entities\Compra.cs" />
-    <Compile Include="Entities\Condominio.cs" />
+    <Compile Include="Entities\Condomi.cs" />
     <Compile Include="Entities\Departamento.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\Estacionamiento.cs" />

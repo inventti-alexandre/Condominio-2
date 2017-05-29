@@ -13,5 +13,18 @@ namespace Condominio.Entities
         public string Elemento { get; set; }
         public int EmpleadoId { get; set; }
         public double Total { get; set; }
+
+        //Proveedor
+        public int ProveedorId { get; set; }
+        public Proveedor Proveedor { get; set; }
+
+        //FormasdePago
+        public int FormasDePagoId { get; set; }
+        public FormaDePago FormasDePago { get; set; }
+
+        //Insumos
+        public int InsumosId { get; set; }
+        public Insumo Insumos { get; set; }
+
     }
 }

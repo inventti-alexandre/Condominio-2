@@ -12,5 +12,14 @@ namespace Condominio.Entities
         public int CantPresonas { get; set; }
         public double CostoDia { get; set; }
 
+        //Reserva
+        public int ReservaId { get; set; }
+        public Reserva Reserva { get; set; }
+
+        //Condomi
+        public int CondomiId { get; set; }
+        public Condomi Condomi { get; set; }
+
+
     }
 }

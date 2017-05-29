@@ -10,5 +10,9 @@ namespace Condominio.Entities
     {
         public int EstacionamientoId { get; set; }
         public string Pabellon { get; set; }
+
+        //Condominio
+        public int CondomiId { get; set; }
+        public Condomi Condomi { get; set; }
     }
 }

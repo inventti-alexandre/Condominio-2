@@ -12,8 +12,14 @@ namespace Condominio.Persistence.EntitiesConfiguration
     {
         public AguaConfiguration()
         {
+            //table configuration
             ToTable("Agua");
             HasKey(m => m.AguaId);
+
+            //relation configuration
+
+            //relation ServicioCompartido
+            //relation PagoCompartido
         }
 
     }

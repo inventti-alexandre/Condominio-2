@@ -56,6 +56,7 @@
     <Compile Include="EntitiesConfiguration\AguaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\AreaComunConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\CompraConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CondominioConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\DepartamentoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\EmpleadoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\EstacionamientoConfiguration.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="EntitiesConfiguration\ResidenteConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\SalidaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\EStadoDepaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ServicioCompartido.cs" />
     <Compile Include="EntitiesConfiguration\ValoracionEmplConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ValoracionResConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VehiculoConfiguration.cs" />
