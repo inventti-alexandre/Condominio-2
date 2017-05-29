@@ -93,6 +93,7 @@
     <Compile Include="Repositories\EstacionamientoRepository.cs" />
     <Compile Include="Repositories\EstadoDepaRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\UnityOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

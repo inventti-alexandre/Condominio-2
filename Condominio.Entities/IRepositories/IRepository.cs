@@ -7,8 +7,23 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities.IRepositories
 {
-    public interface IRepository
+    public interface IRepository<TEntity> where TEntity : class
     {
-        
+        //CREATES
+        void Add(TEntity entity);
+        void AddRange(IEnumerable<TEntity> entities);
+
+        //READS
+        TEntity Get(int? id);
+        IEnumerable<TEntity> GetAll();
+        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
+
+        //UPDATES
+        void Update(TEntity entity);
+        void UpdateRange(IEnumerable<TEntity> entities);
+
+        //DELETES
+        void Remove(TEntity entity);
+        void RemoveRange(IEnumerable<TEntity> entities);
     }
 }

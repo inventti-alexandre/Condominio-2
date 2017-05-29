@@ -67,6 +67,7 @@
     <Compile Include="IRepositories\IEstacionamientoRepository.cs" />
     <Compile Include="IRepositories\IEstadoDepaRepository.cs" />
     <Compile Include="IRepositories\IRepository.cs" />
+    <Compile Include="IRepositories\IUnityOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\Salida.cs" />
     <Compile Include="Entities\ServicioCompartido.cs" />

@@ -8,8 +8,16 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.Repositories
 {
-    public class AguaRepository
+    public class AguaRepository : Repository<Agua>,IAguaRepository
     {
+        private readonly CondominioDbContext _Context;
+        private AguaRepository()
+        {
 
+        }
+        public AguaRepository(CondominioDbContext context)
+        {
+            _Context = context;
+        }
     }
 }

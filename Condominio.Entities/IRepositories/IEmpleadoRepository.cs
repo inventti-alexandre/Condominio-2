@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities.IRepositories
 {
-    public interface IEmpleadoRepository
+    public interface IEmpleadoRepository : IRepository<Empleado>
     {
     }
 }

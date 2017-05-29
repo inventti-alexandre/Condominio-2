@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities.IRepositories
 {
-    public interface IEstacionamientoRepository
+    public interface IEstacionamientoRepository : IRepository<Estacionamiento>
     {
     }
 }
