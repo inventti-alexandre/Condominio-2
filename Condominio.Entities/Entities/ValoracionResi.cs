@@ -12,5 +12,10 @@ namespace Condominio.Entities
         public string Comentario { get; set; }
         public string EstadoCuenta { get; set; }
         public int Valoracion { get; set; }
+
+        //Residente
+        public int ResidenteId { get; set; }
+        public Residente Residente { get; set; }
+
     }
 }

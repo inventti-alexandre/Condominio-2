@@ -11,5 +11,9 @@ namespace Condominio.Entities
         public int VehiculoId { get; set; }
         public string Placa { get; set; }
         public string Descripcion { get; set; }
+
+        //Departamento
+        public int DepartamentoId { get; set; }
+        public Departamento Departamento { get; set; }
     }
 }

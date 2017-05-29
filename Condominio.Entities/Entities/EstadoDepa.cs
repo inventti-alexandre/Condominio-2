@@ -13,6 +13,8 @@ namespace Condominio.Entities
         public string EstadoDepartamento { get; set; }
         public string Observacion { get; set; }
 
-
+        //Departamento
+        public int DepartamentoId { get; set; }
+        public Departamento Departamento { get; set; }
     }
 }

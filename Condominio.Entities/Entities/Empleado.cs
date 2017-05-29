@@ -13,5 +13,15 @@ namespace Condominio.Entities
         public string Email { get; set; }
         public string Puesto { get; set; }
         public int Telefono { get; set; }
+
+
+        //Condomi
+        public int CondomiId { get; set; }
+        public Condomi Condomi { get; set; }
+
+
+        //Valoracion
+        public int ValoracionEmplId { get; set; }
+        public ValoracionEmpl ValoracionEmpl { get; set; }
     }
 }

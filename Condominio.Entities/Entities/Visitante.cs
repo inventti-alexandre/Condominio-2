@@ -11,5 +11,13 @@ namespace Condominio.Entities
         public int VisitanteId { get; set; }
         public int DNI { get; set; }
         public string Nombre { get; set; }
+
+        //Ingreso
+        public int IngresoId { get; set; }
+        public Ingreso Ingreso { get; set; }
+
+        //Salida
+        public int SalidaId { get; set; }
+        public Salida Salida { get; set; }
     }
 }

@@ -10,5 +10,8 @@ namespace Condominio.Entities
     {
         public int FormaDePagoId { get; set; }
         public string EfectivoTarjeta { get; set; }
+        //Compra
+        public int CompraId { get; set; }
+        public Compra Compra { get; set; }
     }
 }

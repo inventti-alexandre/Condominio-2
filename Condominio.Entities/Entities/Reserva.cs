@@ -12,5 +12,9 @@ namespace Condominio.Entities
         public int Codreserva { get; set; }
         public DateTime DiaInicio { get; set; }
         public DateTime DiaFin { get; set; }
+
+        //AreaComun
+        public int AreaComunId { get; set; }
+        public AreaComun AreaComun { get; set; }
     }
 }

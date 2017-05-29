@@ -11,5 +11,9 @@ namespace Condominio.Entities
         public int ProveedorId { get; set; }
         public string Nombre { get; set; }
         public string CodProveedor { get; set; }
+
+        //Compra
+        public int CompraId { get; set; }
+        public Compra Compra { get; set; }
     }
 }

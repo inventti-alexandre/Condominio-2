@@ -14,5 +14,10 @@ namespace Condominio.Entities
         //Condominio
         public int CondomiId { get; set; }
         public Condomi Condomi { get; set; }
+
+        //Departamento
+        public int DepartamentoId { get; set; }
+        public Departamento Departamento { get; set; }
+
     }
 }

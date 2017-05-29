@@ -14,5 +14,13 @@ namespace Condominio.Entities
         public int Dni { get; set; }
         public int Telefono { get; set; }
 
+        //ValoracionResi
+        public int ValoracionResiId { get; set; }
+        public ValoracionResi ValoracionResi { get; set; }
+
+        //Departamento
+        public int DepartamentoId { get; set; }
+        public Departamento Departamento { get; set; }
+
     }
 }
