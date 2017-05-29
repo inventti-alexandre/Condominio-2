@@ -9,7 +9,7 @@ namespace Condominio.Entities
     public class Departamento
     {
         public int DepartamentoId { get; set; }
-        public string Nro_Nombre { get; set; }
+        public string NroNombre { get; set; }
         public int Telefono { get; set; }
     }
 }

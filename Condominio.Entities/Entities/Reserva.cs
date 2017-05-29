@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Reserva
+    public class Reserva
     {
+        public int ReservaId { get; set; }
+        public int Codreserva { get; set; }
+        public DateTime DiaInicio { get; set; }
+        public DateTime DiaFin { get; set; }
     }
 }

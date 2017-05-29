@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Condominio.Entities
+namespace Condominio.Persistence.EntitiesConfiguration
 {
-    class StatusDepa
+    class EStadoDepaConfiguration
     {
     }
 }

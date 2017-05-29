@@ -9,7 +9,7 @@ namespace Condominio.Entities
     public class AreaComun
     {
         public string AreaComunId { get; set; }
-        public int Cant_Presonas { get; set; }
+        public int CantPresonas { get; set; }
         public double CostoDia { get; set; }
 
     }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class PagoCompartido
+    public class PagoCompartido
     {
+        public int PagoCompartidoId { get; set; }
+        public int CodPago { get; set; }
+        public double Total { get; set; }
     }
 }

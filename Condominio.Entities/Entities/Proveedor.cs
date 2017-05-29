@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Proveedor
+    public class Proveedor
     {
+        public int ProveedorId { get; set; }
+        public string Nombre { get; set; }
+        public string CodProveedor { get; set; }
     }
 }

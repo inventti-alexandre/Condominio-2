@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class ServicioCompartido
+    public class ServicioCompartido
     {
+        public int ServiciocompartidoId { get; set; }
+        public int CodServ { get; set; }
     }
 }

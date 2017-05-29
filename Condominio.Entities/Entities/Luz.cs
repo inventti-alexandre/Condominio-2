@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Luz
+    public class Luz
     {
+        public int LuzId { get; set; }
+        public int NumSuministro { get; set; }
+        public double Importe { get; set; }
     }
 }

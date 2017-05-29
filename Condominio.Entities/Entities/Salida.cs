@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Condominio.Entities
 {
-    class Salida
+    public class Salida
     {
+        public int SalidaId { get; set; }
+        public int DNI { get; set; }
+        public DateTime FechaSalida { get; set; }
+        public string Comentario { get; set; }
     }
 }
