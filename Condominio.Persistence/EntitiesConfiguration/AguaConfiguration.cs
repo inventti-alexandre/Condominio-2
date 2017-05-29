@@ -18,8 +18,13 @@ namespace Condominio.Persistence.EntitiesConfiguration
 
             //relation configuration
 
+
             //relation ServicioCompartido
+            HasRequired(c => c.ServicioCompartido)
+                .WithRequiredPrincipal(c => c.Agua);
             //relation PagoCompartido
+            HasRequired(c => c.PagoCompartido)
+                .WithRequiredPrincipal(c => c.Agua);
         }
 
     }

@@ -23,8 +23,8 @@ namespace Condominio.Entities
         public FormaDePago FormasDePago { get; set; }
 
         //Insumos
-        public int InsumosId { get; set; }
-        public Insumo Insumos { get; set; }
+        public int InsumoId { get; set; }
+        public Insumo Insumo { get; set; }
 
     }
 }

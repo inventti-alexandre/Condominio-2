@@ -8,7 +8,21 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.EntitiesConfiguration
 {
-    class AreaComunConfiguration : EntityTypeConfiguration<AreaComun>
+    public class AreaComunConfiguration : EntityTypeConfiguration<AreaComun>
     {
+        public AreaComunConfiguration()
+        {
+            //table configuration
+            ToTable("AreaComun");
+            HasKey(m => m.AreaComunId);
+
+            //relation configuration
+            //Reserva
+            HasRequired(c => c.Reserva)
+                .WithRequiredPrincipal(c => c.AreaComun);
+            //Condomi
+            HasRequired(c => c.Condomi)
+                .WithRequiredPrincipal(c => c.AreaComun);
+        }
     }
 }

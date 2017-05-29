@@ -56,7 +56,7 @@
     <Compile Include="EntitiesConfiguration\AguaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\AreaComunConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\CompraConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\CondominioConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CondomiConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\DepartamentoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\EmpleadoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\EstacionamientoConfiguration.cs" />
@@ -84,6 +84,15 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AguaRepository.cs" />
+    <Compile Include="Repositories\AreaComunRepository.cs" />
+    <Compile Include="Repositories\CompraRepository.cs" />
+    <Compile Include="Repositories\CondomiRepository.cs" />
+    <Compile Include="Repositories\DepartamentoRepository.cs" />
+    <Compile Include="Repositories\EmpleadoRepository.cs" />
+    <Compile Include="Repositories\EstacionamientoRepository.cs" />
+    <Compile Include="Repositories\EstadoDepaRepository.cs" />
+    <Compile Include="Repositories\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

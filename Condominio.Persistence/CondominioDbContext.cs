@@ -12,7 +12,7 @@ namespace Condominio.Persistence
     {
 
         public DbSet<Residente> Residentes { get; set; }
-        
+        public DbSet<Agua> Aguas { get; set; }
     }
 
     
