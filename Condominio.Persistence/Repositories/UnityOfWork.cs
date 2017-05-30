@@ -69,5 +69,9 @@ namespace Condominio.Persistence.Repositories
         {
             return _Context.SaveChanges();
         }
+        public void StateModified (object Entity)
+        {
+            _Context.Entry(Entity).State = System.Data.Entity.EntityState.Modified;
+        }
     }
 }

@@ -18,5 +18,6 @@ namespace Condominio.Entities.IRepositories
         IEstadoDepaRepository EstadoDepas { get; }
 
         int SaveChanges();
+        void StateModified(Object entity);
     }
 }
