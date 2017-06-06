@@ -8,13 +8,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.EntitiesConfiguration
 {
-    public class IngresoConfiguration : EntityTypeConfiguration<Ingreso>
+    public class ValoracionResiConfiguration : EntityTypeConfiguration<ValoracionResi>
     {
-        public IngresoConfiguration()
+        public ValoracionResiConfiguration()
         {
-            //table configuration
-            ToTable("Ingreso");
-            HasKey(m => m.IngresoId);
 
         }
     }

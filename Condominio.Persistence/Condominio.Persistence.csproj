@@ -71,10 +71,10 @@
     <Compile Include="EntitiesConfiguration\ReservaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ResidenteConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\SalidaConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\EStadoDepaConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\ServicioCompartido.cs" />
+    <Compile Include="EntitiesConfiguration\EstadoDepaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ServicioCompartidoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\ValoracionEmplConfiguration.cs" />
-    <Compile Include="EntitiesConfiguration\ValoracionResConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ValoracionResiConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VehiculoConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VigilanciaConfiguration.cs" />
     <Compile Include="EntitiesConfiguration\VisitanteConfiguration.cs" />

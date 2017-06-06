@@ -20,9 +20,7 @@ namespace Condominio.Persistence.EntitiesConfiguration
             //Reserva
             HasRequired(c => c.Reserva)
                 .WithRequiredPrincipal(c => c.AreaComun);
-            //Condomi
-            HasRequired(c => c.Condomi)
-                .WithRequiredPrincipal(c => c.AreaComun);
+            
         }
     }
 }

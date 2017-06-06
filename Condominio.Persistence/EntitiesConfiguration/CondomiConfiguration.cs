@@ -12,6 +12,9 @@ namespace Condominio.Persistence.EntitiesConfiguration
     {
         public CondomiConfiguration()
         {
+            //table configuration
+            ToTable("Condomi");
+            HasKey(m => m.ComdomiId);
             //Estacionamientos
             HasRequired(c => c.Estacionamiento)
                 .WithRequiredPrincipal(c => c.Condomi);

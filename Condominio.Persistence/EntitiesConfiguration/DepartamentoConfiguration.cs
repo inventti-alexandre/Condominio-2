@@ -12,7 +12,9 @@ namespace Condominio.Persistence.EntitiesConfiguration
     {
         public DepartamentoConfiguration()
         {
-            //configuration
+            //table configuration
+            ToTable("Departamento");
+            HasKey(m => m.DepartamentoId);
 
             //Estacionamiento
             HasRequired(c => c.Estacionamiento)

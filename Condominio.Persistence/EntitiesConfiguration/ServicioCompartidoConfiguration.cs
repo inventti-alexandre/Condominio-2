@@ -8,13 +8,10 @@ using System.Threading.Tasks;
 
 namespace Condominio.Persistence.EntitiesConfiguration
 {
-    public class IngresoConfiguration : EntityTypeConfiguration<Ingreso>
+    public class ServicioCompartidoConfiguration : EntityTypeConfiguration<ServicioCompartido>
     {
-        public IngresoConfiguration()
+        public ServicioCompartidoConfiguration()
         {
-            //table configuration
-            ToTable("Ingreso");
-            HasKey(m => m.IngresoId);
 
         }
     }

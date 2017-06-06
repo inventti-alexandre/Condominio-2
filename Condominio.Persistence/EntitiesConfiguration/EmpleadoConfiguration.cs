@@ -12,10 +12,12 @@ namespace Condominio.Persistence.EntitiesConfiguration
     {
         public EmpleadoConfiguration()
         {
-            
-               //Configuration
-               //Valoracion
-               HasRequired(c => c.ValoracionEmpl)
+
+            //table configuration
+            ToTable("Empleado");
+            HasKey(m => m.EmpleadoId);
+            //Valoracion
+            HasRequired(c => c.ValoracionEmpl)
                .WithRequiredPrincipal(c => c.Empleado);
             
             
